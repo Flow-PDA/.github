@@ -52,7 +52,6 @@
 
 <img src="https://github.com/Flow-PDA/.github/assets/52192706/ba66633b-e923-4f9b-802f-51a8a7d9fb4b" alt="logo-image" width=50><br />
 # Main Features
-사진 아래에 기능 설명 넣어주세욥
 <img width="800" src="https://github.com/Flow-PDA/.github/assets/52192706/cf56d4e8-c4af-4c59-9c38-14c8864c68a4"><br />
 
 |기능명|기능설명|
