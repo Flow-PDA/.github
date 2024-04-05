@@ -3,7 +3,7 @@
 <h1>Flow</h1>
 <br /><br />
   
-<img src="https://github.com/Flow-PDA/.github/assets/52192706/bd20af05-f0ce-4d2f-aff1-acf8cbcdf150" alt="logo-image" width="35%"><br /><br />
+<img src="https://github.com/Flow-PDA/.github/assets/52192706/ee08f8ee-7aef-47d7-ad82-beb729c92928" alt="logo-image" width="35%"><br /><br />
 함께, 쉽게, 재밌게 <br />
 함께하는 모임 투자, Flow입니다!
 
@@ -16,19 +16,17 @@
 # Service Introduction
 <br />
 
-🗣️ “혼자 투자를 시작하기 막막해요“
-
-🗣️ “친구들과 모은 돈을 그냥 놔두기 아까워요“
+🗣️ “혼자 투자를 시작하기 막막해요“<br />
+🗣️ “친구들과 모은 돈을 그냥 놔두기 아까워요“<br />
 
 ⬇️⬇️⬇️
 
-💡 모임 투자를 지인들과 함께 하며 쉽게 투자를 배워보는 것은 어떨까?
-
-💡 모여있는 돈을 투자에 활용해 부가적인 수익을 창출해보는 것은 어떨까?
+💡 모임 투자를 지인들과 함께 하며 쉽게 투자를 배워보는 것은 어떨까?<br />
+💡 모여있는 돈을 투자에 활용해 부가적인 수익을 창출해보는 것은 어떨까?<br />
 
 ➡️ 모임투자 웹서비스, Flow!
+<br /><br />
 
-<br /><br /><br />
 
 
 #### :hammer: 플로우를 통해 
@@ -37,7 +35,7 @@
 - 정적 자산 투자를 통해 부가적인 수익을 창출할 수 있어요!
 - 수익 창출이라는 공동의 목표를 향해 협력하기 때문에 모임원 간 유대감을 강화할 수 있어요!
 
-<br />
+<br /><br /><br />
 
 
 <img src="https://github.com/Flow-PDA/.github/assets/52192706/ba66633b-e923-4f9b-802f-51a8a7d9fb4b" alt="logo-image" width=50><br />
