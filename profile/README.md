@@ -4,8 +4,8 @@
 <br /><br />
   
 <img src="https://github.com/Flow-PDA/.github/assets/52192706/ee08f8ee-7aef-47d7-ad82-beb729c92928" alt="logo-image" width="35%"><br /><br />
-함께, 쉽게, 재밌게 <br />
-함께하는 모임 투자, Flow입니다!
+### 함께, 쉽게, 재밌게 <br />
+### 함께하는 모임 투자, Flow입니다!
 
 
 </div>
