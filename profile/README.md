@@ -147,6 +147,9 @@
 
 
 ```
+<br /><br /><br />
+
+<img src="https://github.com/Flow-PDA/.github/assets/52192706/ba66633b-e923-4f9b-802f-51a8a7d9fb4b" alt="logo-image" width=50>
 
 # Appendix
 [시연 영상](https://drive.google.com/file/d/1pKFWoRrUja_ux8GGVWMr1aql25Ez2qsY/view?usp=drive_link) <br/>
