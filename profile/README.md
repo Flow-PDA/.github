@@ -294,7 +294,116 @@
 
 ```
 📂 backend
-
+📦Server
+ ┣ 📂.git
+ ┃ ┣ 📂hooks
+ ┃ ┃ ┣ 📜applypatch-msg.sample
+ ┃ ┃ ┣ 📜commit-msg.sample
+ ┃ ┃ ┣ 📜fsmonitor-watchman.sample
+ ┃ ┃ ┣ 📜post-update.sample
+ ┃ ┃ ┣ 📜pre-applypatch.sample
+ ┃ ┃ ┣ 📜pre-commit.sample
+ ┃ ┃ ┣ 📜pre-merge-commit.sample
+ ┃ ┃ ┣ 📜pre-push.sample
+ ┃ ┃ ┣ 📜pre-rebase.sample
+ ┃ ┃ ┣ 📜pre-receive.sample
+ ┃ ┃ ┣ 📜prepare-commit-msg.sample
+ ┃ ┃ ┣ 📜push-to-checkout.sample
+ ┃ ┃ ┗ 📜update.sample
+ ┃ ┣ 📂info
+ ┃ ┃ ┗ 📜exclude
+ ┃ ┣ 📂logs
+ ┃ ┃ ┣ 📂refs
+ ┃ ┃ ┃ ┣ 📂heads
+ ┃ ┃ ┃ ┃ ┗ 📜main
+ ┃ ┃ ┃ ┗ 📂remotes
+ ┃ ┃ ┃ ┃ ┗ 📂origin
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜HEAD
+ ┃ ┃ ┗ 📜HEAD
+ ┃ ┣ 📂objects
+ ┃ ┃ ┣ 📂info
+ ┃ ┃ ┗ 📂pack
+ ┃ ┃ ┃ ┣ 📜pack-952a894eddcd9dc6b45659654867f1852bc10948.idx
+ ┃ ┃ ┃ ┗ 📜pack-952a894eddcd9dc6b45659654867f1852bc10948.pack
+ ┃ ┣ 📂refs
+ ┃ ┃ ┣ 📂heads
+ ┃ ┃ ┃ ┗ 📜main
+ ┃ ┃ ┣ 📂remotes
+ ┃ ┃ ┃ ┗ 📂origin
+ ┃ ┃ ┃ ┃ ┗ 📜HEAD
+ ┃ ┃ ┗ 📂tags
+ ┃ ┣ 📜HEAD
+ ┃ ┣ 📜config
+ ┃ ┣ 📜description
+ ┃ ┣ 📜index
+ ┃ ┗ 📜packed-refs
+ ┣ 📂.github
+ ┃ ┗ 📜pull_request_template.md
+ ┣ 📂app
+ ┃ ┗ 📂config
+ ┃ ┃ ┣ 📜jwt.config.js
+ ┃ ┃ ┗ 📜mysql.config.js
+ ┣ 📂bin
+ ┃ ┗ 📜www
+ ┣ 📂data
+ ┃ ┗ 📜stock_data.csv
+ ┣ 📂deploy
+ ┃ ┗ 📜README.md
+ ┣ 📂init_db
+ ┃ ┗ 📜README.md
+ ┣ 📂middlewares
+ ┃ ┣ 📜authenticator.js
+ ┃ ┗ 📜validator.js
+ ┣ 📂models
+ ┃ ┣ 📜interestStock.js
+ ┃ ┣ 📜notification.js
+ ┃ ┣ 📜participant.js
+ ┃ ┣ 📜party.js
+ ┃ ┣ 📜partyMember.js
+ ┃ ┣ 📜stock.js
+ ┃ ┣ 📜transactionDetail.js
+ ┃ ┣ 📜transferDetail.js
+ ┃ ┗ 📜user.js
+ ┣ 📂modules
+ ┃ ┣ 📜db.js
+ ┃ ┣ 📜index.js
+ ┃ ┣ 📜jwt.js
+ ┃ ┣ 📜kisApi.js
+ ┃ ┗ 📜scheduler.js
+ ┣ 📂public
+ ┃ ┗ 📂stylesheets
+ ┃ ┃ ┗ 📜style.css
+ ┣ 📂routes
+ ┃ ┣ 📜index.js
+ ┃ ┣ 📜interestStock.js
+ ┃ ┣ 📜notices.js
+ ┃ ┣ 📜parties.js
+ ┃ ┣ 📜points.js
+ ┃ ┣ 📜stocks.js
+ ┃ ┣ 📜transfer.js
+ ┃ ┗ 📜users.js
+ ┣ 📂scripts
+ ┃ ┗ 📜stockData.js
+ ┣ 📂services
+ ┃ ┣ 📜interestStockService.js
+ ┃ ┣ 📜inviteService.js
+ ┃ ┣ 📜noticeService.js
+ ┃ ┣ 📜partyService.js
+ ┃ ┣ 📜stockService.js
+ ┃ ┣ 📜transferService.js
+ ┃ ┗ 📜userService.js
+ ┣ 📂utils
+ ┃ ┣ 📜naverStockApi.js
+ ┃ ┗ 📜refreshToken.js
+ ┣ 📜.dockerignore
+ ┣ 📜.gitignore
+ ┣ 📜Dockerfile.express
+ ┣ 📜Jenkinsfile
+ ┣ 📜README.md
+ ┣ 📜app.js
+ ┣ 📜docker-compose-express.yml
+ ┣ 📜docker-compose.yml
+ ┗ 📜package.json
 
 ```
 <br /><br /><br />
