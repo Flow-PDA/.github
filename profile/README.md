@@ -139,36 +139,7 @@
 📂 frontend
 📦src
  ┣ 📂assets
- ┃ ┣ 📜Flow.png
- ┃ ┣ 📜alarm.png
- ┃ ┣ 📜alert.png
- ┃ ┣ 📜arrow.png
- ┃ ┣ 📜back.png
- ┃ ┣ 📜banner_strategy.jpeg
- ┃ ┣ 📜bell.png
- ┃ ┣ 📜bottom_arrow.png
- ┃ ┣ 📜cash.png
- ┃ ┣ 📜down_arrow.png
- ┃ ┣ 📜hamburger.png
- ┃ ┣ 📜home.png
- ┃ ┣ 📜hot_banner.png
- ┃ ┣ 📜interest.png
- ┃ ┣ 📜invest_banner.png
- ┃ ┣ 📜kakao.png
- ┃ ┣ 📜lightning-bolt.png
- ┃ ┣ 📜logo.svg
- ┃ ┣ 📜logo_white.png
- ┃ ┣ 📜market_banner.png
- ┃ ┣ 📜react.svg
- ┃ ┣ 📜right_arrow.png
- ┃ ┣ 📜search.png
- ┃ ┣ 📜settings.png
- ┃ ┣ 📜shinhan_CI.png
- ┃ ┣ 📜speakerphone.png
- ┃ ┣ 📜stock.png
- ┃ ┣ 📜up_arrow.png
- ┃ ┗ 📜x.png
- ┣ 📂components
+ ┣ 📂components //공통 컴포넌트
  ┃ ┣ 📂common
  ┃ ┃ ┣ 📂button
  ┃ ┃ ┃ ┣ 📜InterestButton.jsx
@@ -207,27 +178,27 @@
  ┣ 📂routers
  ┃ ┗ 📜mainRouter.jsx
  ┣ 📂routes
- ┃ ┣ 📂interest
+ ┃ ┣ 📂interest // 관심주식
  ┃ ┃ ┣ 📂intereststock
- ┃ ┃ ┃ ┣ 📂askingPrice
+ ┃ ┃ ┃ ┣ 📂askingPrice // 호가
  ┃ ┃ ┃ ┃ ┣ 📜InterestStockDetailAskingPrice.css
  ┃ ┃ ┃ ┃ ┣ 📜InterestStockDetailAskingPricePage.jsx
  ┃ ┃ ┃ ┃ ┣ 📜SampleAskingPriceChart.css
  ┃ ┃ ┃ ┃ ┗ 📜SampleAskingPriceChart.jsx
- ┃ ┃ ┃ ┣ 📂chart
+ ┃ ┃ ┃ ┣ 📂chart // 차트
  ┃ ┃ ┃ ┃ ┣ 📜CandleChart.jsx
  ┃ ┃ ┃ ┃ ┣ 📜InterestStockDetailChartPage.css
  ┃ ┃ ┃ ┃ ┣ 📜InterestStockDetailChartPage.jsx
  ┃ ┃ ┃ ┃ ┗ 📜LineChart.jsx
- ┃ ┃ ┃ ┣ 📂news
+ ┃ ┃ ┃ ┣ 📂news // 뉴스
  ┃ ┃ ┃ ┃ ┣ 📜InterestStockDetailNewsPage.css
  ┃ ┃ ┃ ┃ ┣ 📜InterestStockDetailNewsPage.jsx
  ┃ ┃ ┃ ┃ ┣ 📜News.css
  ┃ ┃ ┃ ┃ ┗ 📜News.jsx
  ┃ ┃ ┃ ┣ 📜TradeStockPage.css
- ┃ ┃ ┃ ┗ 📜TradeStockPage.jsx
+ ┃ ┃ ┃ ┗ 📜TradeStockPage.jsx // 주식 거래
  ┃ ┃ ┗ 📜InterestPending.jsx
- ┃ ┣ 📂invest
+ ┃ ┣ 📂invest // 투자 정보
  ┃ ┃ ┣ 📜LiveStockPage.css
  ┃ ┃ ┣ 📜LiveStockPage.jsx
  ┃ ┃ ┣ 📜MarketStockpage.css
@@ -238,13 +209,13 @@
  ┃ ┃ ┣ 📜SearchStockPage.jsx
  ┃ ┃ ┣ 📜StrategyStockPage.css
  ┃ ┃ ┗ 📜StrategyStockPage.jsx
- ┃ ┣ 📂login
+ ┃ ┣ 📂login // 로그인
  ┃ ┃ ┣ 📜LoginPage.css
  ┃ ┃ ┗ 📜LoginPage.jsx
- ┃ ┣ 📂notification
+ ┃ ┣ 📂notification // 알림
  ┃ ┃ ┣ 📜Notification.css
  ┃ ┃ ┗ 📜Notification.jsx
- ┃ ┣ 📂party
+ ┃ ┣ 📂party //모임
  ┃ ┃ ┣ 📜MyPartyPage.css
  ┃ ┃ ┣ 📜MyPartyPage.jsx
  ┃ ┃ ┣ 📜MyPartyTransactionDetail.css
@@ -263,10 +234,10 @@
  ┃ ┃ ┣ 📜SetGoalPage.jsx
  ┃ ┃ ┣ 📜SetPricePage.css
  ┃ ┃ ┗ 📜SetPricePage.jsx
- ┃ ┣ 📂signup
+ ┃ ┣ 📂signup // 가입
  ┃ ┃ ┣ 📜SignupPage.css
  ┃ ┃ ┗ 📜SignupPage.jsx
- ┃ ┣ 📂transfer
+ ┃ ┣ 📂transfer // 이체
  ┃ ┃ ┣ 📜TransferDetailAccountNumPage.css
  ┃ ┃ ┣ 📜TransferDetailAccountNumPage.jsx
  ┃ ┃ ┣ 📜TransferDetailConfirmPage.css
@@ -277,7 +248,7 @@
  ┃ ┃ ┗ 📜TransferPage.jsx
  ┃ ┣ 📜Layout.jsx
  ┃ ┣ 📜MainPage.css
- ┃ ┣ 📜MainPage.jsx
+ ┃ ┣ 📜MainPage.jsx 
  ┃ ┗ 📜ProtectedLayout.jsx
  ┣ 📂store
  ┃ ┣ 📂reducers
@@ -295,50 +266,6 @@
 ```
 📂 backend
 📦Server
- ┣ 📂.git
- ┃ ┣ 📂hooks
- ┃ ┃ ┣ 📜applypatch-msg.sample
- ┃ ┃ ┣ 📜commit-msg.sample
- ┃ ┃ ┣ 📜fsmonitor-watchman.sample
- ┃ ┃ ┣ 📜post-update.sample
- ┃ ┃ ┣ 📜pre-applypatch.sample
- ┃ ┃ ┣ 📜pre-commit.sample
- ┃ ┃ ┣ 📜pre-merge-commit.sample
- ┃ ┃ ┣ 📜pre-push.sample
- ┃ ┃ ┣ 📜pre-rebase.sample
- ┃ ┃ ┣ 📜pre-receive.sample
- ┃ ┃ ┣ 📜prepare-commit-msg.sample
- ┃ ┃ ┣ 📜push-to-checkout.sample
- ┃ ┃ ┗ 📜update.sample
- ┃ ┣ 📂info
- ┃ ┃ ┗ 📜exclude
- ┃ ┣ 📂logs
- ┃ ┃ ┣ 📂refs
- ┃ ┃ ┃ ┣ 📂heads
- ┃ ┃ ┃ ┃ ┗ 📜main
- ┃ ┃ ┃ ┗ 📂remotes
- ┃ ┃ ┃ ┃ ┗ 📂origin
- ┃ ┃ ┃ ┃ ┃ ┗ 📜HEAD
- ┃ ┃ ┗ 📜HEAD
- ┃ ┣ 📂objects
- ┃ ┃ ┣ 📂info
- ┃ ┃ ┗ 📂pack
- ┃ ┃ ┃ ┣ 📜pack-952a894eddcd9dc6b45659654867f1852bc10948.idx
- ┃ ┃ ┃ ┗ 📜pack-952a894eddcd9dc6b45659654867f1852bc10948.pack
- ┃ ┣ 📂refs
- ┃ ┃ ┣ 📂heads
- ┃ ┃ ┃ ┗ 📜main
- ┃ ┃ ┣ 📂remotes
- ┃ ┃ ┃ ┗ 📂origin
- ┃ ┃ ┃ ┃ ┗ 📜HEAD
- ┃ ┃ ┗ 📂tags
- ┃ ┣ 📜HEAD
- ┃ ┣ 📜config
- ┃ ┣ 📜description
- ┃ ┣ 📜index
- ┃ ┗ 📜packed-refs
- ┣ 📂.github
- ┃ ┗ 📜pull_request_template.md
  ┣ 📂app
  ┃ ┗ 📂config
  ┃ ┃ ┣ 📜jwt.config.js
@@ -351,10 +278,10 @@
  ┃ ┗ 📜README.md
  ┣ 📂init_db
  ┃ ┗ 📜README.md
- ┣ 📂middlewares
+ ┣ 📂middlewares //유저 관련 middleware
  ┃ ┣ 📜authenticator.js
  ┃ ┗ 📜validator.js
- ┣ 📂models
+ ┣ 📂models // DB 모델
  ┃ ┣ 📜interestStock.js
  ┃ ┣ 📜notification.js
  ┃ ┣ 📜participant.js
@@ -373,7 +300,7 @@
  ┣ 📂public
  ┃ ┗ 📂stylesheets
  ┃ ┃ ┗ 📜style.css
- ┣ 📂routes
+ ┣ 📂routes //라우터 관리
  ┃ ┣ 📜index.js
  ┃ ┣ 📜interestStock.js
  ┃ ┣ 📜notices.js
@@ -384,7 +311,7 @@
  ┃ ┗ 📜users.js
  ┣ 📂scripts
  ┃ ┗ 📜stockData.js
- ┣ 📂services
+ ┣ 📂services //서비스 관리
  ┃ ┣ 📜interestStockService.js
  ┃ ┣ 📜inviteService.js
  ┃ ┣ 📜noticeService.js
