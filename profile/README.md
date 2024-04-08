@@ -137,7 +137,158 @@
 
 ```
 📂 frontend
-
+📦src
+ ┣ 📂assets
+ ┃ ┣ 📜Flow.png
+ ┃ ┣ 📜alarm.png
+ ┃ ┣ 📜alert.png
+ ┃ ┣ 📜arrow.png
+ ┃ ┣ 📜back.png
+ ┃ ┣ 📜banner_strategy.jpeg
+ ┃ ┣ 📜bell.png
+ ┃ ┣ 📜bottom_arrow.png
+ ┃ ┣ 📜cash.png
+ ┃ ┣ 📜down_arrow.png
+ ┃ ┣ 📜hamburger.png
+ ┃ ┣ 📜home.png
+ ┃ ┣ 📜hot_banner.png
+ ┃ ┣ 📜interest.png
+ ┃ ┣ 📜invest_banner.png
+ ┃ ┣ 📜kakao.png
+ ┃ ┣ 📜lightning-bolt.png
+ ┃ ┣ 📜logo.svg
+ ┃ ┣ 📜logo_white.png
+ ┃ ┣ 📜market_banner.png
+ ┃ ┣ 📜react.svg
+ ┃ ┣ 📜right_arrow.png
+ ┃ ┣ 📜search.png
+ ┃ ┣ 📜settings.png
+ ┃ ┣ 📜shinhan_CI.png
+ ┃ ┣ 📜speakerphone.png
+ ┃ ┣ 📜stock.png
+ ┃ ┣ 📜up_arrow.png
+ ┃ ┗ 📜x.png
+ ┣ 📂components
+ ┃ ┣ 📂common
+ ┃ ┃ ┣ 📂button
+ ┃ ┃ ┃ ┣ 📜InterestButton.jsx
+ ┃ ┃ ┃ ┣ 📜PrimaryButton.jsx
+ ┃ ┃ ┃ ┗ 📜TradeButton.jsx
+ ┃ ┃ ┣ 📂datepicker
+ ┃ ┃ ┃ ┣ 📜Calendar.jsx
+ ┃ ┃ ┃ ┗ 📜CalendarCustom.scss
+ ┃ ┃ ┣ 📂modal
+ ┃ ┃ ┃ ┣ 📜ApproveInterestModal.jsx
+ ┃ ┃ ┃ ┣ 📜PrimaryModal.jsx
+ ┃ ┃ ┃ ┗ 📜StockAskingModal.jsx
+ ┃ ┃ ┣ 📂nav
+ ┃ ┃ ┃ ┣ 📜TopNavigationBar.css
+ ┃ ┃ ┃ ┗ 📜TopNavigationBar.jsx
+ ┃ ┃ ┣ 📂search
+ ┃ ┃ ┃ ┗ 📜Search.jsx
+ ┃ ┃ ┗ 📂swiper
+ ┃ ┃ ┃ ┣ 📜Swiper.css
+ ┃ ┃ ┃ ┗ 📜Swiper.jsx
+ ┃ ┗ 📂line
+ ┃ ┃ ┗ 📜HorizontalLine.jsx
+ ┣ 📂lib
+ ┃ ┣ 📂apis
+ ┃ ┃ ┣ 📜base.jsx
+ ┃ ┃ ┣ 📜hankookApi.jsx
+ ┃ ┃ ┣ 📜interest.jsx
+ ┃ ┃ ┣ 📜notification.jsx
+ ┃ ┃ ┣ 📜party.jsx
+ ┃ ┃ ┣ 📜shinhanApi.jsx
+ ┃ ┃ ┣ 📜stock.jsx
+ ┃ ┃ ┣ 📜transfer.jsx
+ ┃ ┃ ┗ 📜userApi.js
+ ┃ ┗ 📂contexts
+ ┃ ┃ ┗ 📜AuthContext.jsx
+ ┣ 📂routers
+ ┃ ┗ 📜mainRouter.jsx
+ ┣ 📂routes
+ ┃ ┣ 📂interest
+ ┃ ┃ ┣ 📂intereststock
+ ┃ ┃ ┃ ┣ 📂askingPrice
+ ┃ ┃ ┃ ┃ ┣ 📜InterestStockDetailAskingPrice.css
+ ┃ ┃ ┃ ┃ ┣ 📜InterestStockDetailAskingPricePage.jsx
+ ┃ ┃ ┃ ┃ ┣ 📜SampleAskingPriceChart.css
+ ┃ ┃ ┃ ┃ ┗ 📜SampleAskingPriceChart.jsx
+ ┃ ┃ ┃ ┣ 📂chart
+ ┃ ┃ ┃ ┃ ┣ 📜CandleChart.jsx
+ ┃ ┃ ┃ ┃ ┣ 📜InterestStockDetailChartPage.css
+ ┃ ┃ ┃ ┃ ┣ 📜InterestStockDetailChartPage.jsx
+ ┃ ┃ ┃ ┃ ┗ 📜LineChart.jsx
+ ┃ ┃ ┃ ┣ 📂news
+ ┃ ┃ ┃ ┃ ┣ 📜InterestStockDetailNewsPage.css
+ ┃ ┃ ┃ ┃ ┣ 📜InterestStockDetailNewsPage.jsx
+ ┃ ┃ ┃ ┃ ┣ 📜News.css
+ ┃ ┃ ┃ ┃ ┗ 📜News.jsx
+ ┃ ┃ ┃ ┣ 📜TradeStockPage.css
+ ┃ ┃ ┃ ┗ 📜TradeStockPage.jsx
+ ┃ ┃ ┗ 📜InterestPending.jsx
+ ┃ ┣ 📂invest
+ ┃ ┃ ┣ 📜LiveStockPage.css
+ ┃ ┃ ┣ 📜LiveStockPage.jsx
+ ┃ ┃ ┣ 📜MarketStockpage.css
+ ┃ ┃ ┣ 📜MarketStockpage.jsx
+ ┃ ┃ ┣ 📜RisingStockPage.css
+ ┃ ┃ ┣ 📜RisingStockPage.jsx
+ ┃ ┃ ┣ 📜SearchStockPage.css
+ ┃ ┃ ┣ 📜SearchStockPage.jsx
+ ┃ ┃ ┣ 📜StrategyStockPage.css
+ ┃ ┃ ┗ 📜StrategyStockPage.jsx
+ ┃ ┣ 📂login
+ ┃ ┃ ┣ 📜LoginPage.css
+ ┃ ┃ ┗ 📜LoginPage.jsx
+ ┃ ┣ 📂notification
+ ┃ ┃ ┣ 📜Notification.css
+ ┃ ┃ ┗ 📜Notification.jsx
+ ┃ ┣ 📂party
+ ┃ ┃ ┣ 📜MyPartyPage.css
+ ┃ ┃ ┣ 📜MyPartyPage.jsx
+ ┃ ┃ ┣ 📜MyPartyTransactionDetail.css
+ ┃ ┃ ┣ 📜MyPartyTransactionDetail.jsx
+ ┃ ┃ ┣ 📜PartyCreatePage.css
+ ┃ ┃ ┣ 📜PartyCreatePage.jsx
+ ┃ ┃ ┣ 📜PartyInfoPage.css
+ ┃ ┃ ┣ 📜PartyInfoPage.jsx
+ ┃ ┃ ┣ 📜PartyInvitePage.css
+ ┃ ┃ ┣ 📜PartyInvitePage.jsx
+ ┃ ┃ ┣ 📜PartyPage.css
+ ┃ ┃ ┣ 📜PartyPage.jsx
+ ┃ ┃ ┣ 📜SetDataPage.css
+ ┃ ┃ ┣ 📜SetDatePage.jsx
+ ┃ ┃ ┣ 📜SetGoalPage.css
+ ┃ ┃ ┣ 📜SetGoalPage.jsx
+ ┃ ┃ ┣ 📜SetPricePage.css
+ ┃ ┃ ┗ 📜SetPricePage.jsx
+ ┃ ┣ 📂signup
+ ┃ ┃ ┣ 📜SignupPage.css
+ ┃ ┃ ┗ 📜SignupPage.jsx
+ ┃ ┣ 📂transfer
+ ┃ ┃ ┣ 📜TransferDetailAccountNumPage.css
+ ┃ ┃ ┣ 📜TransferDetailAccountNumPage.jsx
+ ┃ ┃ ┣ 📜TransferDetailConfirmPage.css
+ ┃ ┃ ┣ 📜TransferDetailConfirmPage.jsx
+ ┃ ┃ ┣ 📜TransferDetailPricePage.css
+ ┃ ┃ ┣ 📜TransferDetailPricePage.jsx
+ ┃ ┃ ┣ 📜TransferPage.css
+ ┃ ┃ ┗ 📜TransferPage.jsx
+ ┃ ┣ 📜Layout.jsx
+ ┃ ┣ 📜MainPage.css
+ ┃ ┣ 📜MainPage.jsx
+ ┃ ┗ 📜ProtectedLayout.jsx
+ ┣ 📂store
+ ┃ ┣ 📂reducers
+ ┃ ┃ ┣ 📜partyReducer.js
+ ┃ ┃ ┗ 📜userReducer.js
+ ┃ ┣ 📜index.js
+ ┃ ┗ 📜store.js
+ ┣ 📜App.css
+ ┣ 📜App.jsx
+ ┣ 📜index.css
+ ┗ 📜main.jsx
 
 ```
 
