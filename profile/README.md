@@ -115,15 +115,33 @@
 
 ### 상황 
 
+실시간 체결가 및 호가 정보를 위한 한국투자증권 websocket API를 사용
 
 ### 문제 
 
+체결가/호가 모두 포함하여 하나의 API key 당 40건의 데이터만 구독 가능하여, 많은 종목의 정보를 제공할 수 없음.
 
 ### 해결 
 #### 해결 방법 1 <br>
 
+다수의 API key를 활용하고, 다수의 client의 중복된 요청을 처리하여 보다 많은 종목의 정보를 제공하고자 client로 부터의 요청 목록과 한국투자증권 websocket API로의 구독 정보 및 다수의 websocket connection을 관리하기 위한 module을 개발.
+Client와의 통신을 담당하는 `publisher`, 한국투자증권 websocket 통신을 담당하는 `subscriber`, client로 부터의 요청 목록과 `subscriber`를 관리하는 `subscriberManager` 세 모듈을 구성하여 다수의 API를 활용하여 가능한 많은 종목의 정보를 제공하고자 함.
 
 
+## 문제 2, 
+
+### 상황 
+
+실시간 데이터 제공을 위한 websocket server 개발 중, client와 통신을 담당하는 모듈(`publisher`), client로 부터의 요청 목록과 한국투자증권 websocket 구독 정보를 관리하는 모듈(`subscriberManager`), 한국투자증권 websocket connection 모듈(`subscriber`) 개발
+
+### 문제 
+
+세 모듈간 통신 중 순환참조 발생
+
+### 해결 
+#### 해결 방법 1 <br>
+
+Websocket 통신 중 발생하는 event를 Javascript의 EventEmitter를 활용하여 요청/구독 정보를 관리하는 module로 전달하여 모듈 간 순환참조를 해결
 
 <br />
 
